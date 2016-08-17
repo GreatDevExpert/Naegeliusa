@@ -1,0 +1,2 @@
+[12-Mar-2016 12:46:54 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/naegeliu/public_html/wp-content/themes/naegeli/404.php on line 8
+[12-Mar-2016 12:46:54 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/naegeliu/public_html/wp-content/themes/naegeli/footer.php on line 5

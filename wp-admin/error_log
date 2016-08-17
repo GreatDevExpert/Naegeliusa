@@ -1,0 +1,1277 @@
+[30-Jan-2016 03:53:51 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@naegelidepositionsusa.com>
+ The mail server could not deliver mail to wordpress@naegelidepositionsusa.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+ Sender verify failed
+[30-Jan-2016 03:53:51 UTC] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 550
+[30-Jan-2016 03:54:55 UTC] ERROR PostmanPortTest: mail.naegelidepositionsusa.com:25 => starttls failed
+[30-Jan-2016 03:54:57 UTC] ERROR PostmanPortTest: mail.naegelidepositionsusa.com:587 => starttls failed
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_587
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_465
+        )
+
+)
+
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:25
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:587
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[30-Jan-2016 03:55:07 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_587
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_465
+        )
+
+)
+
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:25
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:587
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[30-Jan-2016 03:55:15 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_587
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_465
+        )
+
+)
+
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:25
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:587
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[30-Jan-2016 03:59:36 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_587
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_465
+        )
+
+)
+
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:25
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:587
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[30-Jan-2016 03:59:40 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[02-Feb-2016 15:39:29 UTC] ERROR PostmanPortTest: mail.naegelidepositionsusa.com:25 => starttls failed
+[02-Feb-2016 15:39:31 UTC] ERROR PostmanPortTest: mail.naegelidepositionsusa.com:587 => starttls failed
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_587
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_465
+        )
+
+)
+
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:25
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:587
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[02-Feb-2016 15:39:41 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => server.naegeliusa.com
+            [reportedHostnameDomainOnly] => naegeliusa.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_587
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.naegelidepositionsusa.com
+            [hostnameDomainOnly] => naegelidepositionsusa.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => mail.naegelidepositionsusa.com_465
+        )
+
+)
+
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:25
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - naegelidepositionsusa.com:587
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[02-Feb-2016 15:39:50 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[02-Feb-2016 15:42:36 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <admin@naegelidepositionsusa.com>
+ The mail server could not deliver mail to admin@naegelidepositionsusa.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+ Sender verify failed
+[02-Feb-2016 15:42:36 UTC] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 550
+[02-Feb-2016 15:54:28 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.office365.com
+            [hostnameDomainOnly] => office365.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => BY2PR11CA0061.outlook.office365.com
+            [reportedHostnameDomainOnly] => office365.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.office365.com_587
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.office365.com
+            [hostnameDomainOnly] => office365.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => SN1PR17CA0044.outlook.office365.com
+            [reportedHostnameDomainOnly] => office365.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.office365.com_25
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.office365.com
+            [hostnameDomainOnly] => office365.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.office365.com_465
+        )
+
+)
+
+[02-Feb-2016 15:54:28 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - office365.com:587
+[02-Feb-2016 15:54:28 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - office365.com:25
+[02-Feb-2016 15:54:28 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[02-Feb-2016 15:54:28 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[02-Feb-2016 15:54:28 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[02-Feb-2016 15:55:26 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.3 Authentication unsuccessful
+[02-Feb-2016 15:55:26 UTC] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 535
+[02-Feb-2016 16:36:01 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.3 Authentication unsuccessful
+[02-Feb-2016 16:36:01 UTC] ERROR PostmanSendTestEmailAjaxController: Test Email NOT delivered to server - 535
+[02-Feb-2016 18:29:44 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.office365.com
+            [hostnameDomainOnly] => office365.com
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => CO2PR18CA0009.outlook.office365.com
+            [reportedHostnameDomainOnly] => office365.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.office365.com_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.office365.com
+            [hostnameDomainOnly] => office365.com
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => CO2PR18CA0016.outlook.office365.com
+            [reportedHostnameDomainOnly] => office365.com
+            [message] => 
+            [startTls] => 1
+            [authPlain] => 
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.office365.com_587
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.office365.com
+            [hostnameDomainOnly] => office365.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.office365.com_465
+        )
+
+)
+
+[02-Feb-2016 18:29:44 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - office365.com:25
+[02-Feb-2016 18:29:44 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - office365.com:587
+[02-Feb-2016 18:29:44 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[02-Feb-2016 18:29:44 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[02-Feb-2016 18:29:44 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[20-Feb-2016 23:15:54 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT COUNT(*) FROM ng_ngch made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::record_count
+[20-Feb-2016 23:15:54 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT * FROM ng_ngch LIMIT 10 OFFSET 0 made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::get_submissions
+[20-Feb-2016 23:24:17 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT COUNT(*) FROM ng_ngch made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::record_count
+[20-Feb-2016 23:24:17 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT * FROM ng_ngch LIMIT 10 OFFSET 0 made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::get_submissions
+[20-Feb-2016 23:27:57 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT COUNT(*) FROM ng_ngch made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::record_count
+[20-Feb-2016 23:27:57 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT * FROM ng_ngch LIMIT 10 OFFSET 0 made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::get_submissions
+[20-Feb-2016 23:29:11 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT COUNT(*) FROM ng_ngch made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::record_count
+[20-Feb-2016 23:29:11 UTC] WordPress database error Table 'naegeliu_2016.ng_ngch' doesn't exist for query SELECT * FROM ng_ngch LIMIT 10 OFFSET 0 made by do_action('naegeli-scheduler_page_ng_submission_inbox'), call_user_func_array, NG_Plugin->plugin_settings_page, Submission_List->prepare_items, Submission_List::get_submissions
+[20-Feb-2016 23:36:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 for query SELECT * FROM ng_ngch WHERE ssid =  made by do_action('admin_page_ng_signle_submission'), call_user_func_array, ng_view_submission
+[20-Feb-2016 23:50:39 UTC] PHP Notice:  ob_end_clean(): failed to delete buffer. No buffer to delete in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 869
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 874
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 875
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 876
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 877
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 878
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 879
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 880
+[20-Feb-2016 23:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 881
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 875
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 876
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 877
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 878
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 879
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 880
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 881
+[20-Feb-2016 23:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:872) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 882
+[20-Feb-2016 23:56:56 UTC] PHP Notice:  Undefined index: record in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 885
+[20-Feb-2016 23:56:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 for query SELECT * FROM ng_ngch WHERE ssid =  made by do_action('admin_page_ng_signle_submission'), call_user_func_array, ng_view_submission
+[21-Feb-2016 00:03:39 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 872
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 876
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 877
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 878
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 879
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 880
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 881
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 882
+[21-Feb-2016 00:04:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 883
+[21-Feb-2016 00:05:05 UTC] PHP Notice:  ob_end_clean(): failed to delete buffer. No buffer to delete in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 866
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 875
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 876
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 877
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 878
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 879
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 880
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 881
+[21-Feb-2016 00:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 882
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 875
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 876
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 877
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 878
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 879
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 880
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 881
+[21-Feb-2016 00:10:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php:870) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 882
+[21-Feb-2016 00:15:00 UTC] PHP Notice:  ob_end_clean(): failed to delete buffer. No buffer to delete in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 863
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 875
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 876
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 877
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 878
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 879
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 880
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 881
+[21-Feb-2016 00:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/naegeliu/public_html/wp-admin/includes/template.php:1947) in /home/naegeliu/public_html/wp-content/plugins/Naegeli-scheduler/naegeli.php on line 882
+[22-Feb-2016 07:34:23 UTC] PHP Warning:  require_once(/home/naegeliu/public_html/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php): failed to open stream: No such file or directory in /home/naegeliu/public_html/wp-content/plugins/contact-form-7/admin/admin.php on line 3
+[22-Feb-2016 07:34:23 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/naegeliu/public_html/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/naegeliu/public_html/wp-content/plugins/contact-form-7/admin/admin.php on line 3
+[29-Feb-2016 14:59:15 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`subdatetime` DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,)' at line 1 for query CREATE TABLE IF NOT EXISTS ng_ngcd (`id` INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,`name` VARCHAR(50) NOT null,`email` VARCHAR(50) NOT null,`message` TEXT,`whaturl` VARCHAR(100)`subdatetime` DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,) made by activate_plugin, do_action('activate_Naegeli-Contact-db/main.php'), call_user_func_array, ngcd_install, dbDelta
+[29-Feb-2016 15:04:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`subdatetime` DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,)' at line 1 for query CREATE TABLE IF NOT EXISTS ng_ngcd (`id` INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,`name` VARCHAR(50) NOT null,`email` VARCHAR(50) NOT null,`message` TEXT,`whaturl` VARCHAR(100)`subdatetime` DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,) made by activate_plugin, do_action('activate_Naegeli-Contact-db/main.php'), call_user_func_array, ngcd_install, dbDelta
+[29-Feb-2016 17:58:06 UTC] PHP Warning:  require_once(/home/naegeliu/public_html/wp-content/plugins/Naegeli-Contact-db/list_table.php): failed to open stream: No such file or directory in /home/naegeliu/public_html/wp-content/plugins/Naegeli-Contact-db/main.php on line 73
+[29-Feb-2016 17:58:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/naegeliu/public_html/wp-content/plugins/Naegeli-Contact-db/list_table.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/naegeliu/public_html/wp-content/plugins/Naegeli-Contact-db/main.php on line 73
+[29-Feb-2016 18:05:33 UTC] WordPress database error Unknown column 'yname' in 'order clause' for query SELECT * FROM ng_ngcd ORDER BY yname asc LIMIT 10 OFFSET 0 made by do_action('toplevel_page_ng_message_db'), call_user_func_array, NG_DB_Plugin->plugin_settings_page, message_List->prepare_items, message_List::get_submissions
+[29-Feb-2016 18:05:36 UTC] WordPress database error Unknown column 'yname' in 'order clause' for query SELECT * FROM ng_ngcd ORDER BY yname desc LIMIT 10 OFFSET 0 made by do_action('toplevel_page_ng_message_db'), call_user_func_array, NG_DB_Plugin->plugin_settings_page, message_List->prepare_items, message_List::get_submissions
+[06-Mar-2016 14:57:09 UTC] PHP Notice:  Undefined offset: 0 in /home/naegeliu/public_html/wp-includes/functions.php on line 772
+[06-Mar-2016 14:57:09 UTC] PHP Notice:  Undefined offset: 0 in /home/naegeliu/public_html/wp-includes/functions.php on line 812
+[06-Mar-2016 14:57:09 UTC] PHP Notice:  Undefined offset: 0 in /home/naegeliu/public_html/wp-includes/functions.php on line 817
+[06-Mar-2016 14:57:09 UTC] PHP Notice:  Undefined offset: 1 in /home/naegeliu/public_html/wp-includes/functions.php on line 817
+[06-Mar-2016 14:58:31 UTC] PHP Notice:  Undefined offset: 0 in /home/naegeliu/public_html/wp-includes/functions.php on line 772
+[06-Mar-2016 14:58:31 UTC] PHP Notice:  Undefined offset: 0 in /home/naegeliu/public_html/wp-includes/functions.php on line 812
+[06-Mar-2016 14:58:31 UTC] PHP Notice:  Undefined offset: 0 in /home/naegeliu/public_html/wp-includes/functions.php on line 817
+[06-Mar-2016 14:58:31 UTC] PHP Notice:  Undefined offset: 1 in /home/naegeliu/public_html/wp-includes/functions.php on line 817

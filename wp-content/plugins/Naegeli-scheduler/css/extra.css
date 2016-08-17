@@ -1,0 +1,121 @@
+body.naegeli-schedule-page .greybg{
+    margin-left: -1500px;
+    margin-right: -1500px;
+    padding: 30px 1500px;
+    background-color: #817873;
+}
+body.naegeli-schedule-page p.formtxt{
+    font-family: 'Kalinga Light';
+    font-size: 1.2em;
+    text-align: center;
+    color: #000;
+}
+.form-control{
+    font-family: 'Kalinga Light';
+    line-height: 23px;
+}
+body.naegeli-schedule-page span.form-sub-heading {
+    font-family: 'TrajanPro-Regular';
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+body.naegeli-schedule-page h2.form-sub-heading {
+    font-family: 'TrajanPro-Bold';
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align:center;
+    padding: 30px 0;
+    margin: 0;
+}
+a.telno, span.text-white {
+    color: #fff!important;
+    text-transform: none;
+}
+body.naegeli-schedule-page .form-control {
+
+    border-radius: 0!important;
+
+}
+
+body.naegeli-schedule-page .control-label{
+    color: #fff;
+    font-size: 1em;
+	margin: 5px 0!important;
+    text-transform: uppercase;
+}
+
+body.naegeli-schedule-page .heading {
+
+    color: #fff;
+
+}
+
+span.req {
+
+    color: #BC140F;
+
+}
+
+
+
+.bootstrap-timepicker-widget table td input {
+
+    width: 45px;
+
+ }
+
+
+
+ .extraheight{
+
+ 	min-height: 110px;
+
+ }
+
+ .fileinput{
+
+ 	display: block;
+
+ }
+
+ .fileinput .btn {
+    border-radius: 0;
+    font-family: 'Kalinga Light';
+    font-size: 1em;
+    height: 33px;
+    cursor: pointer;
+}
+
+#btn-large {
+    border-radius: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-family: 'Kalinga Light';
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+span.deletefield, span#addfield{
+
+	cursor: pointer;
+
+}
+
+span.helpBlock {
+    font-family: 'Kalinga Light';
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+    text-transform: none;
+}
+
+.radio label {
+    font-size: 1em;
+    color: #fff;
+}
+.form-horizontal .checkbox, .form-horizontal .radio {
+    min-height: 22px;
+}

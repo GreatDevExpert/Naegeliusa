@@ -1,0 +1,12 @@
+[13-Feb-2016 21:53:57 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[13-Feb-2016 21:53:58 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[13-Feb-2016 21:54:00 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[13-Feb-2016 21:54:01 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[26-Feb-2016 17:22:47 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[26-Feb-2016 17:23:06 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[26-Feb-2016 17:23:08 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[26-Feb-2016 17:23:09 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[03-Mar-2016 10:00:18 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[03-Mar-2016 10:00:19 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[03-Mar-2016 10:00:22 America/Denver] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[03-Mar-2016 10:00:24 America/Denver] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/naegeliu/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58

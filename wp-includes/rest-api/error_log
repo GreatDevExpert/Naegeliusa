@@ -1,0 +1,5 @@
+[23-Feb-2016 16:23:34 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/naegeliu/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[23-Feb-2016 16:23:38 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/naegeliu/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[29-Feb-2016 04:50:57 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/naegeliu/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[29-Feb-2016 21:49:00 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/naegeliu/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[29-Feb-2016 21:49:01 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/naegeliu/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17

@@ -1,0 +1,63 @@
+/******************************************************************
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded (if admin.php is setup in your
+functions file) on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+/* the form box */
+/*
+This is the Wordpress logo in the admin area.
+You'll have to load your own images and mess
+with the width and height.
+*/
+.login h1 a {
+  background: url(../images/naegeli-logo-top.png) no-repeat top center;
+  /* make sure to replace this! */
+  background-size: contain;
+  width: auto;
+  height: 40px;
+  text-indent: -9999px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  display: block; }
+
+/*
+You'll have to override some of the default styles
+but since we're referencing the id, it should be easy.
+*/
+/* login button*/
+input#wp-submit {
+  background-color: #d12329;
+  width: 100%;
+  height: 41px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.login #login_error, .login .message{
+  border-left: 4px solid #d12329;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus {
+    -webkit-box-shadow: 0 1px 0 #d12329,0 0 2px 1px #d12329;
+    box-shadow: 0 1px 0 #d12329,0 0 2px 1px #d12329;
+}
+.wp-core-ui .button-primary {
+    background: #D12329;
+    border-color: #D12329 #D12329 #D12329;
+    -webkit-box-shadow: 0 1px 0 #D12329;
+    box-shadow: 0 1px 0 #D12329;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #000000,1px 0 1px #D12329,0 1px 1px #000,-1px 0 1px #D12329;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #D12329;
+    border-color: #D12329;
+    color: #fff;
+}

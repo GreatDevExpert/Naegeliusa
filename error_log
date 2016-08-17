@@ -1,0 +1,5 @@
+[08-Mar-2016 16:32:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/naegeliu/public_html/wp-content/themes/naegeli/page.php on line 9
+[14-Mar-2016 08:23:48 UTC] PHP Fatal error:  Call to undefined function str_get_html() in /home/naegeliu/public_html/wp-content/themes/naegeli/template-two-ups.php on line 28
+[14-Mar-2016 08:25:58 UTC] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Specification mandate value for attribute allowfullscreen in /home/naegeliu/public_html/wp-content/themes/naegeli/template-two-ups.php on line 28
+[14-Mar-2016 08:25:58 UTC] PHP Warning:  simplexml_load_string(): ww.youtube.com/embed/1QTCRlHmz60?feature=oembed&quot; frameborder=&quot;0&quot; allowfullscreen in /home/naegeliu/public_html/wp-content/themes/naegeli/template-two-ups.php on line 28
+[14-Mar-2016 08:25:58 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/naegeliu/public_html/wp-content/themes/naegeli/template-two-ups.php on line 28
